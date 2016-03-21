@@ -1,0 +1,23 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Newtonsoft.Json.ObservableSupport
+{
+	public class AddingNewEventArgs
+	{
+		public Object NewObject { get; set; }
+		public AddingNewEventArgs()
+		{
+
+		}
+
+		public AddingNewEventArgs(Object newObject)
+		{
+			NewObject = newObject;
+		}
+
+
+	}
+}
